@@ -7,7 +7,8 @@ $clientSecret = 'Y5Uk3LBujg4Nm77DZqffn5mV';
 
 //$clientID = '422098523004-a9ms8u68jtq1mgjb2h2a7126mkbhr4dc.apps.googleusercontent.com';
 //$clientSecret = 'x2ANYmYHvLW3RhuPyHvQYQG9';
-$aUrl = 'http://localhost:63342/google-login/login-call.php';
+$port=9656;
+$aUrl = 'http://localhost:'.$port.'/google-login/login-call.php';
 $redirectUri = $aUrl;
 
 // create Client Request to access Google API

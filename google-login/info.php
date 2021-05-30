@@ -17,6 +17,7 @@ if(!isset($_SESSION['authenticate'])){
     exit();
 }
 
+
 $user = $_SESSION['userInfo'];
 //print_r($user);
 ?>
@@ -29,6 +30,9 @@ $user = $_SESSION['userInfo'];
     <div class="form-group">
         <label for="email">Email</label>
         <input type="text" name="email" class="form-control" id="email" value="<?php echo $user->email ?>" readonly>
+    </div>
+    <div class="form-group">
+        <a href="login.php?type=logout" class="btn btn-primary btn-block">Logout</a>
     </div>
 </form>
 </body>
