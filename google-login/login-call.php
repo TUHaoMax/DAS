@@ -5,8 +5,7 @@ require "google-api-php-client--PHP5.6/vendor/autoload.php";
 $clientID = '27871397094-debcshjm9cihnln4bl8a3jscp72oeoeu.apps.googleusercontent.com';
 $clientSecret = 'Y5Uk3LBujg4Nm77DZqffn5mV';
 
-//$clientID = '422098523004-a9ms8u68jtq1mgjb2h2a7126mkbhr4dc.apps.googleusercontent.com';
-//$clientSecret = 'x2ANYmYHvLW3RhuPyHvQYQG9';
+
 $port=9656;
 $aUrl = 'http://localhost:'.$port.'/google-login/login-call.php';
 $redirectUri = $aUrl;
