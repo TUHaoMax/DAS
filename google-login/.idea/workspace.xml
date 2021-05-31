@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="04dd7d04-b902-45b2-8ab0-017b697ece58" name="Default Changelist" comment="DAS" />
+    <list default="true" id="04dd7d04-b902-45b2-8ab0-017b697ece58" name="Default Changelist" comment="DAS">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSRFtest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-login.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-call.php" beforeDir="false" afterPath="$PROJECT_DIR$/login-call.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,19 +65,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../xampp/php/php.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\我的资源\订单\2021-05\B12493(200)\google-login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\BIF\SS2021\DAS\UE 5\DAS\google-login" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,7 +106,16 @@
       <workItem from="1622196132493" duration="233000" />
       <workItem from="1622196425561" duration="1701000" />
       <workItem from="1622198280746" duration="793000" />
-      <workItem from="1622404428064" duration="606000" />
+      <workItem from="1622404428064" duration="1733000" />
+      <workItem from="1622445473191" duration="65000" />
+      <workItem from="1622445671846" duration="35000" />
+      <workItem from="1622445798629" duration="251000" />
+      <workItem from="1622446405397" duration="350000" />
+      <workItem from="1622451612381" duration="26000" />
+      <workItem from="1622456553095" duration="194000" />
+      <workItem from="1622456818841" duration="86000" />
+      <workItem from="1622456916861" duration="52000" />
+      <workItem from="1622468060176" duration="11345000" />
     </task>
     <task id="LOCAL-00001" summary="DAS">
       <created>1622191170443</created>
@@ -106,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622404765282</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DAS">
+      <created>1622405232511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622405232511</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,5 +171,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DAS" />
     <option name="LAST_COMMIT_MESSAGE" value="DAS" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

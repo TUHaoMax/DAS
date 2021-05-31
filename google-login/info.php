@@ -17,11 +17,10 @@ if(!isset($_SESSION['authenticate'])){
     exit();
 }
 
-
 $user = $_SESSION['userInfo'];
 //print_r($user);
 ?>
-<form action="#">
+<form action="CSRFtest.php" method="post">
     <img src="<?php echo $user->picture; ?>" alt="avatar">
     <div class="form-group">
         <label for="name">Name</label>
@@ -32,6 +31,13 @@ $user = $_SESSION['userInfo'];
         <input type="text" name="email" class="form-control" id="email" value="<?php echo $user->email ?>" readonly>
     </div>
     <div class="form-group">
+        <!--<input type="hidden" name="token" value="feww"/>-->
+        <input type="hidden" name="token" value="<?=$_SESSION['token']?>"/>
+      <input type="text" id="CSRFtest" name="CSRFtest"/>
+    </div>
+    <div class="form-group">
+        <input type="submit"  class="btn btn-primary btn-block" value="Submit"/>
+
         <a href="login.php?type=logout" class="btn btn-primary btn-block">Logout</a>
     </div>
 </form>
